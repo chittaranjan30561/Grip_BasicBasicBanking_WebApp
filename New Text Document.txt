@@ -1,0 +1,24 @@
+<nav class="topnavbar navbar-default topnav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+            <span class="sr-only"> Toggle navigaion</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="index.html"><img src="brand.gif" alt="logo"></a>
+        </div>	 
+      </div>
+      <div class="collapse navbar-collapse" id="upmenu">
+        <ul class="nav navbar-nav" id="navbarontop">
+          
+          <button onclick="parent.location='transfer1.html'"><span class="postnewcar">TRANSFER MONEY</span></button>
+          <button onclick="parent.location='customers.jsp'"><span class="postnewcar">Customers Balance</span></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="parent.location='show.jsp'"><span class="postnewcar">TRANSFER STATEMENT</span></button>
+        </ul>
+      </div>
+    </nav>
+    
